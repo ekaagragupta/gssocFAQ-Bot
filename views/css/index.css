@@ -59,10 +59,10 @@
     --header-bg: #232323a5;
 
     --hero-gradient: #000;
-    --hero-bg-img: url("/assets/images/background/dots.svg");
-    --hero-bg-img:url("/assets/images/home/unified.jpg");
-    --hero-bg-img:url("/assets/images/home/api.png");
-    --hero-bg-img:url("/assets/images/home/integration1.png");
+    --hero-bg-img: url("../../assets/images/background/dots.svg");
+    --hero-bg-img:url("../../assets/images/home/unified.jpg");
+    --hero-bg-img:url("../../assets/images/home/api.png");
+    --hero-bg-img:url("../../assets/images/home/integration1.png");
 
   }
 
@@ -133,7 +133,8 @@ hr{
 }
 
 .hero-section{
-    background-image: var(--hero-bg-img);
+  .hero-section {
+  background-image: var(--hero-bg-img);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
